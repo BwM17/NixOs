@@ -1,0 +1,77 @@
+;;Windows
+
+
+;;TODOS 
+;;	 Battery Indecator ! 
+;; 	 Bar-end 
+;; 	 Bar-middle 
+;; 	 Quick-settings
+
+(defwindow way-bar
+	:monitor 0
+	:geometry (geometry 
+			:width "100%"    
+			:height "40px"      
+			:anchor "bottom center")  
+	:exclusive true
+	:stacking "fg"
+	:windowtype "dock" 
+(bar))   
+
+
+(defwindow way-settings
+	:monitor 0
+	:geometry (geometry 
+		:y "15px" 
+		:x "15px"
+		:width "350px" 
+		:height "450px" 
+		:anchor "bottom right"  
+	)  
+	:exclusive true  
+	:stacking "fg" 
+	:windowtype "normal"
+(settings)) 
+
+
+(defwindow x-bar
+	:monitor 0
+	:geometry (geometry  
+			:width "100%" 
+			:height "40%"
+			:height "64px"   
+			:anchor "top center")
+	:stacking "bg" 
+	:reserve (struts :distance "70px" :side "top") 
+	:windowtype "dock"
+	:wm-ignore false
+	(bar)) 
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,24 @@
+(include "modules/windows.yuck")
+(include "modules/vars.yuck")
+(include "modules/bar.yuck") 
+(include "modules/workspaces.yuck") 
+(include "modules/power.yuck")
+(include "modules/time.yuck")
+(include "modules/wifi.yuck")
+(include "modules/launcher.yuck")
+(include "modules/settings.yuck") 
+(include "modules/slider.yuck")
+
+
+;;[TODO] 
+;; [ ] wifi icon
+;; [ ] wifi menu
+;; [ ] settings 
+
+
+
+
+
+
+
+
